@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>Objects and Arrays in Javascript</h2>
+  <p><i>Students Bio,As follows:</i></p>
+  <script>
+    var student={
+      name: 'Riya',
+      age: '20',
+      Grade: '11',
+      hobbies: 'Drawing',
+      fav_sport: 'Cricket'
+    };
+    var color=["white","black","red","green","blue"]
+    document.write("Student name is: "+student.name,"<br>","Student age is: "+student.age,"<br>","Student grade is "+student.Grade,"<br>","Student hobbies are: "+student.hobbies,"<br>","Student favorite sport is: "+student.fav_sport);
+    document.write("<br>");
+    document.write("Before popping the colors are: "+color.join("^"));
+    
+    document.write("<br>");
+    document.write("<br>");
+    
+    document.write("My favorite color is: "+color[3]);
+    color.pop();
+    
+    document.write("<br>");
+    document.write("<br>");
+    
+    document.write("After popping the colors are: "+color.join("*"));
+  </script>
+</body>
+
+</html>
